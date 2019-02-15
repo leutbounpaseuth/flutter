@@ -8,6 +8,7 @@ void main() {
     appName: 'Build flavors DEV',
     flavorName: 'development',
     apiBaseUrl: 'https://dev-api.example.com/',
+    debugShowCheckedModeBanner: true,
     child: new MyApp(),
   );
   
