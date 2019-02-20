@@ -25,6 +25,13 @@ class _DrawerMenuState extends State<DrawerMenu> {
                   Navigator.of(context).popAndPushNamed('/dialogpopup');
                 },
               ),
+              ListTile(
+                leading: Icon(Icons.widgets),
+                title: Text('Text'),
+                onTap: () {
+                  Navigator.of(context).popAndPushNamed('/text');
+                },
+              ),
             ],
           ),
         ),
