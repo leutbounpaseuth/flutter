@@ -65,6 +65,13 @@ class _TextPageState extends State<TextPage> {
                   ]),
             ),
           ),
+          ListTile(
+            title: Row(children: <Widget>[
+              Expanded(child: Divider(color: Colors.black)),
+              Text(" THE END ", style: TextStyle(color: Colors.black)),
+              Expanded(child: Divider(color: Colors.black)),
+            ]),
+          ),
         ],
       ),
     );
