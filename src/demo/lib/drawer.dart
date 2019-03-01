@@ -19,6 +19,13 @@ class _DrawerMenuState extends State<DrawerMenu> {
                 },
               ),
               ListTile(
+                leading: Icon(Icons.color_lens),
+                title: Text('Dark mode'),
+                onTap: () {
+                  Navigator.of(context).popAndPushNamed('/darkmode');
+                },
+              ),
+              ListTile(
                 leading: Icon(Icons.widgets),
                 title: Text('Dialog popup'),
                 onTap: () {
