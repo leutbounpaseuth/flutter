@@ -15,11 +15,11 @@ class PopupUtils {
     return showDemoDialog<Null>(
         context: context,
         child: NativeDialog(
-          title: title,
-          content: detail,
+          title: Text(title),
+          content: Text(detail),
           actions: <NativeDialogAction>[
             NativeDialogAction(
-                text: 'OK',
+                text: Text('OK'),
                 isDestructive: false,
                 onPressed: () {
                   Navigator.pop(context);
